@@ -1,0 +1,22 @@
+{
+  "name": "react-native-ali-face-verify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "react": "17.0.2",
+    "react-native": "0.66.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "^0.60.0"
+  }
+}

@@ -1,0 +1,49 @@
+apply plugin: 'com.android.library'
+
+buildscript {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/public'}
+        google()
+        jcenter()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+    }
+}
+
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile 'com.facebook.react:react-native:+'
+
+    implementation files('libs/android-aliyunbasicstl-sdk-release-1.4.9-20211111195256.aar')
+    implementation files('libs/android-aliyunface-sdk-release-1.4.9-20211111195256.aar')
+    implementation files('libs/deviceid-release-6.0.7.20211109.aar')
+    implementation files('libs/Android-AliyunDevice-FG-10018.1.aar')
+    implementation files('libs/tygerservice-1.0.0.210619103852.aar')
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+    implementation 'com.squareup.okio:okio:1.14.0'
+    implementation 'com.alibaba:fastjson:1.2.62'
+    implementation 'com.aliyun.dpa:oss-android-sdk:+'
+}
