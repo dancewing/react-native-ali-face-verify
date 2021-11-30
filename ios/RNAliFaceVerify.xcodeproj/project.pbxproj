@@ -7,7 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3E7B58A1CC2AC0600A0062D /* RNAliFaceVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNAliFaceVerify.m */; };
+		5976EE6A10A6185FD5D0C281 /* libPods-RNAliFaceVerify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C91966047EE00AD693A2D65 /* libPods-RNAliFaceVerify.a */; };
+		C154BCE1275697860002D080 /* ZolozIdentityManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C154BCD2275697820002D080 /* ZolozIdentityManager.framework */; };
+		C154BCE2275697860002D080 /* APBToygerFacade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C154BCD3275697820002D080 /* APBToygerFacade.framework */; };
+		C154BCE3275697860002D080 /* ZolozOpenPlatformBuild.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C154BCD4275697820002D080 /* ZolozOpenPlatformBuild.framework */; };
+		C154BCE4275697860002D080 /* MPRemoteLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C154BCD5275697820002D080 /* MPRemoteLogging.framework */; };
+		C154BCE5275697860002D080 /* BioAuthAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C154BCD6275697820002D080 /* BioAuthAPI.framework */; };
+		C154BCE6275697860002D080 /* deviceiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C154BCD7275697830002D080 /* deviceiOS.framework */; };
+		C154BCE7275697860002D080 /* OCRDetectSDKForTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C154BCD8275697830002D080 /* OCRDetectSDKForTech.framework */; };
+		C154BCE8275697860002D080 /* ZolozMobileRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C154BCD9275697830002D080 /* ZolozMobileRPC.framework */; };
+		C154BCE9275697860002D080 /* AliyunIdentityManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C154BCDA275697830002D080 /* AliyunIdentityManager.framework */; };
+		C154BCEA275697860002D080 /* ZolozUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C154BCDB275697840002D080 /* ZolozUtility.framework */; };
+		C154BCEB275697860002D080 /* AliyunOSSiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C154BCDC275697840002D080 /* AliyunOSSiOS.framework */; };
+		C154BCEC275697860002D080 /* ToygerService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C154BCDD275697850002D080 /* ToygerService.framework */; };
+		C154BCED275697860002D080 /* APPSecuritySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C154BCDE275697860002D080 /* APPSecuritySDK.framework */; };
+		C154BCEE275697860002D080 /* BioAuthEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C154BCDF275697860002D080 /* BioAuthEngine.framework */; };
+		C154BCEF275697860002D080 /* ZolozSensorServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C154BCE0275697860002D080 /* ZolozSensorServices.framework */; };
+		C154BD1E27569C0C0002D080 /* AlifaceVerity.m in Sources */ = {isa = PBXBuildFile; fileRef = C154BD1927569C0C0002D080 /* AlifaceVerity.m */; };
+		C154BD1F27569C0C0002D080 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C154BD1A27569C0C0002D080 /* AppDelegate.m */; };
+		C154BD2027569C0C0002D080 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C154BD1D27569C0C0002D080 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +42,30 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNAliFaceVerify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAliFaceVerify.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E7B5881CC2AC0600A0062D /* RNAliFaceVerify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAliFaceVerify.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* RNAliFaceVerify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAliFaceVerify.m; sourceTree = "<group>"; };
+		6C91966047EE00AD693A2D65 /* libPods-RNAliFaceVerify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNAliFaceVerify.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B308D848A744955A37EA123D /* Pods-RNAliFaceVerify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAliFaceVerify.debug.xcconfig"; path = "Target Support Files/Pods-RNAliFaceVerify/Pods-RNAliFaceVerify.debug.xcconfig"; sourceTree = "<group>"; };
+		C154BCD2275697820002D080 /* ZolozIdentityManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozIdentityManager.framework; sourceTree = "<group>"; };
+		C154BCD3275697820002D080 /* APBToygerFacade.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APBToygerFacade.framework; sourceTree = "<group>"; };
+		C154BCD4275697820002D080 /* ZolozOpenPlatformBuild.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozOpenPlatformBuild.framework; sourceTree = "<group>"; };
+		C154BCD5275697820002D080 /* MPRemoteLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPRemoteLogging.framework; sourceTree = "<group>"; };
+		C154BCD6275697820002D080 /* BioAuthAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BioAuthAPI.framework; sourceTree = "<group>"; };
+		C154BCD7275697830002D080 /* deviceiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = deviceiOS.framework; sourceTree = "<group>"; };
+		C154BCD8275697830002D080 /* OCRDetectSDKForTech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCRDetectSDKForTech.framework; sourceTree = "<group>"; };
+		C154BCD9275697830002D080 /* ZolozMobileRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozMobileRPC.framework; sourceTree = "<group>"; };
+		C154BCDA275697830002D080 /* AliyunIdentityManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunIdentityManager.framework; sourceTree = "<group>"; };
+		C154BCDB275697840002D080 /* ZolozUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozUtility.framework; sourceTree = "<group>"; };
+		C154BCDC275697840002D080 /* AliyunOSSiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunOSSiOS.framework; sourceTree = "<group>"; };
+		C154BCDD275697850002D080 /* ToygerService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ToygerService.framework; sourceTree = "<group>"; };
+		C154BCDE275697860002D080 /* APPSecuritySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APPSecuritySDK.framework; sourceTree = "<group>"; };
+		C154BCDF275697860002D080 /* BioAuthEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BioAuthEngine.framework; sourceTree = "<group>"; };
+		C154BCE0275697860002D080 /* ZolozSensorServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozSensorServices.framework; sourceTree = "<group>"; };
+		C154BD1827569C0C0002D080 /* AlifaceVerity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlifaceVerity.h; sourceTree = "<group>"; };
+		C154BD1927569C0C0002D080 /* AlifaceVerity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlifaceVerity.m; sourceTree = "<group>"; };
+		C154BD1A27569C0C0002D080 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C154BD1B27569C0C0002D080 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C154BD1C27569C0C0002D080 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C154BD1D27569C0C0002D080 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5F389C7ECF2E89A44D7C0B8 /* Pods-RNAliFaceVerify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAliFaceVerify.release.xcconfig"; path = "Target Support Files/Pods-RNAliFaceVerify/Pods-RNAliFaceVerify.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +73,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C154BCEA275697860002D080 /* ZolozUtility.framework in Frameworks */,
+				C154BCE6275697860002D080 /* deviceiOS.framework in Frameworks */,
+				C154BCE7275697860002D080 /* OCRDetectSDKForTech.framework in Frameworks */,
+				C154BCE2275697860002D080 /* APBToygerFacade.framework in Frameworks */,
+				C154BCE5275697860002D080 /* BioAuthAPI.framework in Frameworks */,
+				C154BCEE275697860002D080 /* BioAuthEngine.framework in Frameworks */,
+				C154BCE4275697860002D080 /* MPRemoteLogging.framework in Frameworks */,
+				C154BCEC275697860002D080 /* ToygerService.framework in Frameworks */,
+				C154BCEB275697860002D080 /* AliyunOSSiOS.framework in Frameworks */,
+				C154BCE3275697860002D080 /* ZolozOpenPlatformBuild.framework in Frameworks */,
+				C154BCE1275697860002D080 /* ZolozIdentityManager.framework in Frameworks */,
+				C154BCED275697860002D080 /* APPSecuritySDK.framework in Frameworks */,
+				C154BCE8275697860002D080 /* ZolozMobileRPC.framework in Frameworks */,
+				C154BCEF275697860002D080 /* ZolozSensorServices.framework in Frameworks */,
+				C154BCE9275697860002D080 /* AliyunIdentityManager.framework in Frameworks */,
+				5976EE6A10A6185FD5D0C281 /* libPods-RNAliFaceVerify.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,10 +106,64 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				B3E7B5881CC2AC0600A0062D /* RNAliFaceVerify.h */,
-				B3E7B5891CC2AC0600A0062D /* RNAliFaceVerify.m */,
+				C154BD5627569E7F0002D080 /* Libraries */,
+				C154BD1727569BBD0002D080 /* RNAliFaceVerify */,
+				C154BCD1275697520002D080 /* Frameworks */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				8295ABDC08BD590A3331491B /* Pods */,
 			);
+			sourceTree = "<group>";
+		};
+		8295ABDC08BD590A3331491B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B308D848A744955A37EA123D /* Pods-RNAliFaceVerify.debug.xcconfig */,
+				C5F389C7ECF2E89A44D7C0B8 /* Pods-RNAliFaceVerify.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C154BCD1275697520002D080 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C154BCDA275697830002D080 /* AliyunIdentityManager.framework */,
+				C154BCDC275697840002D080 /* AliyunOSSiOS.framework */,
+				C154BCD3275697820002D080 /* APBToygerFacade.framework */,
+				C154BCDE275697860002D080 /* APPSecuritySDK.framework */,
+				C154BCD6275697820002D080 /* BioAuthAPI.framework */,
+				C154BCDF275697860002D080 /* BioAuthEngine.framework */,
+				C154BCD7275697830002D080 /* deviceiOS.framework */,
+				C154BCD5275697820002D080 /* MPRemoteLogging.framework */,
+				C154BCD8275697830002D080 /* OCRDetectSDKForTech.framework */,
+				C154BCDD275697850002D080 /* ToygerService.framework */,
+				C154BCD2275697820002D080 /* ZolozIdentityManager.framework */,
+				C154BCD9275697830002D080 /* ZolozMobileRPC.framework */,
+				C154BCD4275697820002D080 /* ZolozOpenPlatformBuild.framework */,
+				C154BCE0275697860002D080 /* ZolozSensorServices.framework */,
+				C154BCDB275697840002D080 /* ZolozUtility.framework */,
+				6C91966047EE00AD693A2D65 /* libPods-RNAliFaceVerify.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C154BD1727569BBD0002D080 /* RNAliFaceVerify */ = {
+			isa = PBXGroup;
+			children = (
+				C154BD1827569C0C0002D080 /* AlifaceVerity.h */,
+				C154BD1927569C0C0002D080 /* AlifaceVerity.m */,
+				C154BD1B27569C0C0002D080 /* AppDelegate.h */,
+				C154BD1A27569C0C0002D080 /* AppDelegate.m */,
+				C154BD1C27569C0C0002D080 /* Info.plist */,
+				C154BD1D27569C0C0002D080 /* main.m */,
+			);
+			path = RNAliFaceVerify;
+			sourceTree = "<group>";
+		};
+		C154BD5627569E7F0002D080 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -63,6 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNAliFaceVerify" */;
 			buildPhases = (
+				0C2FBBB757E24ED52E2D6A3F /* [CP] Check Pods Manifest.lock */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
@@ -95,6 +206,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
@@ -107,12 +219,39 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C2FBBB757E24ED52E2D6A3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNAliFaceVerify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E7B58A1CC2AC0600A0062D /* RNAliFaceVerify.m in Sources */,
+				C154BD1F27569C0C0002D080 /* AppDelegate.m in Sources */,
+				C154BD2027569C0C0002D080 /* main.m in Sources */,
+				C154BD1E27569C0C0002D080 /* AlifaceVerity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +280,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -156,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -185,6 +325,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -193,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -202,9 +343,14 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B308D848A744955A37EA123D /* Pods-RNAliFaceVerify.debug.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
+					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
@@ -218,7 +364,12 @@
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5F389C7ECF2E89A44D7C0B8 /* Pods-RNAliFaceVerify.release.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
