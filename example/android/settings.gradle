@@ -1,0 +1,6 @@
+rootProject.name = 'AliFaceVerifyExample'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+
+include ':rn-ali-face-verify'
+project(':rn-ali-face-verify').projectDir = new File(rootProject.projectDir, '../../android')

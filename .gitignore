@@ -45,3 +45,5 @@ buck-out/
 *.keystore
 
 ios/Pods
+.settings
+.project

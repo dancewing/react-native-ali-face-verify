@@ -38,7 +38,7 @@ repositories {
 
 dependencies {
 
-    compile 'com.facebook.react:react-native:+'
+    api 'com.facebook.react:react-native:+'
 
     implementation files('libs/android-aliyunbasicstl-sdk-release-1.4.9-20211111195256.aar')
     implementation files('libs/android-aliyunface-sdk-release-1.4.9-20211111195256.aar')
